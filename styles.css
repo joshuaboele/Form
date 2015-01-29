@@ -1,0 +1,106 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto+Condensed:400,300);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400);
+
+
+body {
+
+
+	margin: 0px;
+	font-family: 'Roboto Condensed', ' sans-serif';
+	font-weight: 300px;	
+}
+
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+}
+
+label {
+
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: pointer;
+
+}
+
+
+#bg {
+
+	background-color: #A2DED0;
+	position: relative;
+
+}
+
+#wrapper, .wrapper {
+
+	width: 800px;
+	margin: 0 auto;
+	background-color: #fff;
+	height: auto;
+
+}
+
+
+#header {
+
+	height: 200px;
+	background: url(img/asteroids.jpg);
+}
+
+#header h1 {
+
+	color: #fff;
+	text-align: center;
+	padding: 50px 0;
+	font-family: 'Open Sans';
+	font-weight: 300;
+	font-size: 70px;
+	margin-top: 0;
+}
+
+#form {
+
+	margin: 0px 50px;
+}
+
+#form h1 {
+
+	text-align: center;
+	padding: 40px 0 40px 0;
+}
+
+.btn.btn-primary{
+
+	background: red;
+
+}
+
+#instructies {
+	width:210px;
+	height:100px;
+	position:fixed;
+	bottom:0;
+	right:0;
+	background-color: #22313F;
+}
+
+#instructies h1 {
+
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300px;
+	margin-top: 0px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 15px;
+	padding-bottom: 0px;
+	font-size: 17px;
+	color: #fff;
+	letter-spacing: 1px;
+
+
+}
+
